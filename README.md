@@ -1,7 +1,7 @@
-# Tensorflow_cluster
-Script for installing and running Tensorflow on the Computer Center cluster of NUS.
+# TensorFlow_cluster
+Script for installing and running TensorFlow on the Computer Center cluster of NUS.
 
-The installation can be done on the atlas4 node (because it has cmake and all the tools already installed). To lunch Tensorflow with cuda the good node is gold.
+The installation can be done on the atlas4 node (because it has cmake and all the tools already installed). To lunch TensorFlow with cuda the good node is gold.
 
 
 Sometimes the wget command stop on the cluster. It seems random and I don't understand why. A solution to prevent this is to download the files on another computer and then SSH the files on the cluster.
@@ -25,5 +25,8 @@ Put it in the home directory.
  -  Reload bash
 
 
-### tensorflow 0.12.1
+### TensorFlow 0.12.1
 Run the script tensorflow_cpu.sh or tensorflow_gpu.sh
+
+## Running TensorFlow:
+Run the script python_tensorflow.sh
